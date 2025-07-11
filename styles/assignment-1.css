@@ -1,13 +1,21 @@
-
-.open-sans-normal-font> {
-  font-family: "Open Sans", sans-serif;
+.inter-normal {
+  font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight: <weight>;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
 }
-
+.raleway-normal {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+ 
+ 
+ 
+ 
+ 
+ 
 nav{
     display: flex;
     font-optical-sizing: auto;
@@ -21,39 +29,105 @@ nav{
 .signup-button{
     background-color: #4E47FF;
     color: white;
-    font-weight: 1px;
+    font-weight: bold;
     text-align: center;
     padding: 8px 20px;
-    border-radius: 20%;
-    
+    border-radius: 10%;
+    margin-right: 150px;
     
 }
 .logo{
-    font-weight: bolder;
-    font-size: 20px;
+    font: weight 900;
+    font-size:34px ;
+    color: #4E47FF;
+    margin-left: 150px;
+   
 }
 .bhugichugi{
     text-align: center;
     padding: 80px 20px 40px;
 }
 .bhugichugi h1{
-    font-size: 32px;
+    font-size: 65px;
+    text-align: center;
     font-weight: bold;
     margin-bottom: 20px;
+    color: #252432;
+
 }
 .stay-focus-button{
     background-color: #4E47FF;
     color: white;
-    font-weight: 400;
-    border: none;
-    border-radius: 6%;
+    font-weight: bold;
+    width: 174px;
+    height: 48px;
+    border-radius: 10%;
     padding: 8px 20px;
-    font-size: 10px;
+    font-size: 15px;
+    background-size: auto;
     
 }
 .left{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: ;
+
+    
+    
+}
+.left-text{
+    max-width: 50%;
+    margin-left: 120px;
+}
+.left-text h2{
+    font-size: 24px;
+    margin-bottom: 10px;
+    margin-left: 120px;
+}
+.left-text p{
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-left: 120px;
+}
+.left-button{
+    background-color:#4E47FF ;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    font-weight: bold;
+    border-radius: 6px;
+    margin-left: 120px;
+    font-size: 10px;
+}
+.right-image img{
+    width: 403;
+    height: 328;
+    margin-top: 20px;
+    border-radius: 40px; 
+}
+.with-bg{
+    background-image: url('../Assets/Hero-bg.png');
+
+}
+.right-image{
+    margin-right: 159px;
+}
+.section{
+    text-align: center;
+     background-color: rgba(78, 71, 255, 0.1);
+     border-radius: 15px;
+     padding: 40px 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+.headline{
+    font-size: 18px;
+    
+}
+.twoinone{
+    display: flex;
+}
+span{
+    flex-direction: column;
 }
