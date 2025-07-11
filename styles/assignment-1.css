@@ -76,18 +76,18 @@ nav{
     
 }
 .left-text{
-    max-width: 50%;
-    margin-left: 120px;
+    
+    padding-left: 20px;
 }
 .left-text h2{
     font-size: 24px;
     margin-bottom: 10px;
-    margin-left: 120px;
+    margin-left: 20px;
 }
 .left-text p{
     font-size: 16px;
     margin-bottom: 20px;
-    margin-left: 120px;
+    margin-left: 20px;
 }
 .left-button{
     background-color:#4E47FF ;
@@ -96,7 +96,7 @@ nav{
     border: none;
     font-weight: bold;
     border-radius: 6px;
-    margin-left: 120px;
+    margin-left: 20px;
     font-size: 10px;
 }
 .right-image img{
@@ -104,6 +104,7 @@ nav{
     height: 328;
     margin-top: 20px;
     border-radius: 40px; 
+    padding-right: 2px;
 }
 .with-bg{
     background-image: url('../Assets/Hero-bg.png');
@@ -114,20 +115,68 @@ nav{
 }
 .section{
     text-align: center;
-     background-color: rgba(78, 71, 255, 0.1);
-     border-radius: 15px;
-     padding: 40px 20px;
+    background-color: rgba(78, 71, 255, 0.1);
+    border-radius: 15px;
     justify-content: space-around;
     margin-top: 50px;
-    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    height:306px ;
 }
 .headline{
     font-size: 18px;
-    
+    margin-top: 50px;
+    padding-top: 5px;
 }
 .twoinone{
-    display: flex;
+     
 }
-span{
-    flex-direction: column;
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-title{
+    font-weight: bolder;
+    color: #4E47FF;
+    font-size:80px ;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 0px;
+    
+}
+.item-description{
+    font-size: 20px;
+    
+}
+.about-item{
+    line-height: 0%;
+}
+.container{
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(255, 255, 255, 1)
+    border-radius: 20px;
+}
+.head{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.para{
+    color: #000000;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+.gsf{
+    background-color: #4E47FF;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 6px;
+    display: inline-block;
+    margin-bottom: 30px;
+
+}
+.chobi{
+    width: 100%;
+    border-radius: 25px;
 }
