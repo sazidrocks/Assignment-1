@@ -1,0 +1,59 @@
+
+.open-sans-normal-font> {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+nav{
+    display: flex;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 99;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px ;
+    
+}
+.signup-button{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: 1px;
+    text-align: center;
+    padding: 8px 20px;
+    border-radius: 20%;
+    
+    
+}
+.logo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.bhugichugi{
+    text-align: center;
+    padding: 80px 20px 40px;
+}
+.bhugichugi h1{
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.stay-focus-button{
+    background-color: #4E47FF;
+    color: white;
+    font-weight: 400;
+    border: none;
+    border-radius: 6%;
+    padding: 8px 20px;
+    font-size: 10px;
+    
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: ;
+}
