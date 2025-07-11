@@ -180,3 +180,51 @@ main{
     width: 100%;
     border-radius: 25px;
 }
+.contact-section{
+    display: flex;
+    width: 100%;
+    padding: 50px 20px;
+    justify-content: space-between;
+    align-items: center
+}
+.lets{
+    flex: 1;
+    padding-right: 40px;
+}
+.lets h1{
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.box{
+    flex: 1;
+}
+form{
+    display: flex;
+    flex-direction: column;
+
+}
+form label{
+    margin-top: 10px;
+    font-weight: bold;
+}
+form input,form textarea{
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid;
+    border-radius: 6px;
+    font-size: 14px;
+}
+form textarea{
+    height: 100px;
+    resize: vertical;
+}
+form button{
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #4E47FF;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
