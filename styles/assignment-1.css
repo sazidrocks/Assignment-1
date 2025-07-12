@@ -70,17 +70,17 @@ nav{
 .left{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    max-width: 1140px;
 
     
     
 }
 .left-text{
-    
+    padding-top: 70px;
     padding-left: 20px;
 }
 .left-text h2{
-    font-size: 24px;
+    font-size: 42px;
     margin-bottom: 10px;
     margin-left: 20px;
 }
@@ -88,6 +88,7 @@ nav{
     font-size: 16px;
     margin-bottom: 20px;
     margin-left: 20px;
+    color: #252432;
 }
 .left-button{
     background-color:#4E47FF ;
@@ -102,9 +103,9 @@ nav{
 .right-image img{
     width: 403;
     height: 328;
-    margin-top: 20px;
+    margin-top: 50px;
     border-radius: 40px; 
-    padding-right: 2px;
+      
 }
  .navbar{
 background-image: url(../Assets/Hero-bg.png);
