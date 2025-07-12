@@ -45,7 +45,7 @@ nav{
 }
 .bhugichugi{
     text-align: center;
-    padding: 80px 20px 40px;
+    padding: 80px 80px 80px;
 }
 .bhugichugi h1{
     font-size: 65px;
@@ -64,7 +64,7 @@ nav{
     border-radius: 10%;
     padding: 8px 20px;
     font-size: 15px;
-    background-size: auto;
+  
     
 }
 .left{
@@ -106,10 +106,13 @@ nav{
     border-radius: 40px; 
     padding-right: 2px;
 }
-.with-bg{
-    background-image: url('../Assets/Hero-bg.png');
+ .navbar{
+background-image: url(../Assets/Hero-bg.png);
+ }
+ 
+ 
 
-}
+
 .right-image{
     margin-right: 159px;
 }
@@ -181,23 +184,27 @@ main{
     border-radius: 25px;
 }
 .contact-section{
+    background-color: #D6DDED;
     display: flex;
     width: 100%;
     padding: 50px 20px;
     justify-content: space-between;
     align-items: center
+    
 }
 .lets{
     flex: 1;
     padding-right: 40px;
 }
 .lets h1{
-    font-size: 48px;
+    font-size: 60px;
     font-weight: bold;
     line-height: 1.2;
 }
 .box{
     flex: 1;
+    gap: 2px;
+    padding-right: 100px;
 }
 form{
     display: flex;
@@ -205,15 +212,18 @@ form{
 
 }
 form label{
-    margin-top: 10px;
+    margin-top: 5px;
     font-weight: bold;
+    font-size: 12px;
+    
 }
 form input,form textarea{
-    padding: 12px;
-    margin-top: 5px;
-    border: 1px solid;
-    border-radius: 6px;
-    font-size: 14px;
+    padding: 8px;
+    margin-top: 3px;
+    border: 2px #D6DDED;
+    border-radius: 5px;
+    font-size: 12px;
+    
 }
 form textarea{
     height: 100px;
@@ -227,4 +237,33 @@ form button{
     border: none;
     border-radius: 6px;
     font-weight: bold;
+}
+.footer{
+    text-align: center;
+    padding: 40px 20px;
+}
+.footer h1{
+    color: #4E47FF;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 900;
+}
+.footer p{
+    max-width: 600px;  
+    margin: auto;
+    color: #8987A1;
+
+}
+.links{
+    display: flex;
+    gap: 20px;
+    font-size: 12px;
+    justify-content: center;
+    padding: 20px;
+    
+    
+    
+    
+    
+    
 }
